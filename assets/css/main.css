@@ -12125,6 +12125,10 @@ textarea.is-invalid {
     padding-top: 2px;
   }
 
+   .offcanvas__close .fas.fa-times {
+    padding-top: 2px;
+  }
+
   .back-to-top {
     font-size: 17px;
   }
