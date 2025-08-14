@@ -12121,7 +12121,7 @@ textarea.is-invalid {
     padding: 12px 0;
   }
 
-  .back-to-top .fa-solid.fa-chevron-up {
+  #back-top .fa-solid.fa-chevron-up {
     padding-top: 3px;
   }
 }
