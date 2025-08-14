@@ -12120,6 +12120,10 @@ textarea.is-invalid {
   .section-padding {
     padding: 12px 0;
   }
+
+  .back-to-top .fa-solid.fa-chevron-up {
+    padding-top: 3px;
+  }
 }
 
 @media (max-width:450px) {
@@ -12150,14 +12154,14 @@ textarea.is-invalid {
     margin-bottom: 10px;
   }
 
-      .intro-wrapper.style1 .intro-content .intro-section-title .intro-title {
-        font-size: 18px;
-        margin-bottom: 8px;
-    }
+  .intro-wrapper.style1 .intro-content .intro-section-title .intro-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
 
-        .intro-wrapper.style1 .intro-content .intro-section-title .intro-desc {
-        font-size: 16px;
-    }
+  .intro-wrapper.style1 .intro-content .intro-section-title .intro-desc {
+    font-size: 16px;
+  }
 
 }
 
