@@ -12124,6 +12124,10 @@ textarea.is-invalid {
   #back-top .fa-solid.fa-chevron-up {
     padding-top: 2px;
   }
+
+  .back-to-top{
+    font-size: 17px;
+  }
 }
 
 @media (max-width:450px) {
