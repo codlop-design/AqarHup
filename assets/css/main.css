@@ -12125,8 +12125,12 @@ textarea.is-invalid {
     padding-top: 2px;
   }
 
-  .back-to-top{
+  .back-to-top {
     font-size: 17px;
+  }
+
+  .header-main {
+    padding: 20px;
   }
 }
 
