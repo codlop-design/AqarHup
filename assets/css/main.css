@@ -2873,6 +2873,9 @@ input[type=radio]:checked~label::before {
   opacity: 0;
   visibility: hidden;
   transform: translateY(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .back-to-top:hover {
