@@ -11905,6 +11905,21 @@ textarea.is-invalid {
   color: #FF1C1C;
 }
 
+@media (max-width:1200px) {
+  
+  .header-left .header-logo img{
+    width: 60px;
+  }
+
+    .offcanvas__content .offcanvas__top {
+    margin-bottom: 15px !important;
+  }
+  
+  .offcanvas__logo a img {
+    width: 60px;
+  }
+}
+
 @media (max-width:1024px) {
   .fancy-box.style2 .content {
     max-width: unset;
@@ -11960,13 +11975,7 @@ textarea.is-invalid {
 }
 
 @media (max-width: 768px) {
-  .offcanvas__logo a img {
-    width: 60px;
-  }
 
-  .offcanvas__content .offcanvas__top {
-    margin-bottom: 15px !important;
-  }
 
   .offcanvas__wrapper .offcanvas__content .offcanvas__close {
     width: 35px;
@@ -12125,7 +12134,7 @@ textarea.is-invalid {
     padding-top: 2px;
   }
 
-   .offcanvas__close .fas.fa-times {
+  .offcanvas__close .fas.fa-times {
     padding-top: 2px;
   }
 
