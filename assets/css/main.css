@@ -11906,15 +11906,15 @@ textarea.is-invalid {
 }
 
 @media (max-width:1200px) {
-  
-  .header-left .header-logo img{
+
+  .header-left .header-logo img {
     width: 60px;
   }
 
-    .offcanvas__content .offcanvas__top {
+  .offcanvas__content .offcanvas__top {
     margin-bottom: 15px !important;
   }
-  
+
   .offcanvas__logo a img {
     width: 60px;
   }
@@ -12149,6 +12149,14 @@ textarea.is-invalid {
   .offcanvas__wrapper .offcanvas__content .offcanvas__contact .header-button .theme-btn {
     padding: 12px 5px;
   }
+
+  .h1_style {
+    font-size: 18px;
+  }
+
+  .whatsapp_img {
+    bottom: 80px;
+  }
 }
 
 @media (max-width:450px) {
@@ -12188,6 +12196,15 @@ textarea.is-invalid {
     font-size: 16px;
   }
 
+  .fancy-box.style2 .icon img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fancy-box.style2 {
+    gap: 10px;
+    margin-bottom: 12px;
+  }
 }
 
 
