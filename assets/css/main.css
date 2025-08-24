@@ -9941,10 +9941,10 @@ input.main-search-input::placeholder {
 .service-box.style3 .content h3 {
   color: var(--title);
   font-family: 'Tajawal', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 150%;
   letter-spacing: -0.4px;
   margin-bottom: 10px;
 }
@@ -11903,6 +11903,10 @@ textarea.is-invalid {
 
 .footer_div .bi-heart-fill {
   color: #FF1C1C;
+}
+
+.icon-box.style3 img{
+  height: 40px;
 }
 
 @media (max-width:1200px) {
