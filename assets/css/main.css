@@ -3375,7 +3375,7 @@ input[type=radio]:checked~label::before {
 .icon-box.style3 {
   width: 70px;
   height: 70px;
-  line-height: 70px;
+  line-height: 100%;
   text-align: center;
   background: linear-gradient(90deg, rgba(172, 96, 229, 0.2509803922) 25%, rgba(12, 135, 240, 0.2509803922) 100%);
   border-radius: 8px;
@@ -3383,6 +3383,9 @@ input[type=radio]:checked~label::before {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .counter-box-wrapper.style3 {
@@ -11905,7 +11908,7 @@ textarea.is-invalid {
   color: #FF1C1C;
 }
 
-.icon-box.style3 img{
+.icon-box.style3 img {
   height: 40px;
 }
 
@@ -12033,6 +12036,20 @@ textarea.is-invalid {
 
   .intro-wrapper.style1 .intro-content .intro-section-title .intro-title {
     font-size: 26px;
+  }
+
+  .section-title .title {
+    font-size: 19px;
+  }
+
+  .service-box.style3 .icon-box {
+    margin-bottom: 10px;
+  }
+
+  .icon-box.style3 {
+    width: 55px;
+    height: 55px;
+
   }
 
 }
@@ -12174,7 +12191,7 @@ textarea.is-invalid {
   }
 
   .work-process-box.style1 .title {
-    font-size: 19px;
+    font-size: 18px;
     margin-bottom: 5px;
   }
 
@@ -12208,6 +12225,14 @@ textarea.is-invalid {
   .fancy-box.style2 {
     gap: 10px;
     margin-bottom: 12px;
+  }
+
+  .service-box.style3 .content h3 {
+    font-size: 16px;
+  }
+
+  .cta-content a img {
+    height: 40px;
   }
 }
 
